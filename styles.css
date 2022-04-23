@@ -11,7 +11,6 @@ img {
     column-count: 4;
     max-width: 1000px;
     margin: 0 auto;
-    /* background: #b6d068; */
     padding: 30px;
 
 }
@@ -34,5 +33,10 @@ img {
     .container {
         column-count: 1;
     }
+
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 
 }
