@@ -1,3 +1,13 @@
+body {
+    background-image: url("try.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 img {
     width: 100%;
@@ -9,7 +19,7 @@ img {
 
 .container {
     column-count: 4;
-    max-width: 1000px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 30px;
 
@@ -36,7 +46,7 @@ img {
 
 }
 img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
+    transform: scale(1.15);
+    transition: .3s;
 
 }
